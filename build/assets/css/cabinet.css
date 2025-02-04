@@ -1,0 +1,57 @@
+.team-section .image-box {
+    width: 400px !important;
+    height: 400px !important;
+    border-radius: 0 !important;
+    object-fit: contain !important;
+  }
+  .team-section .inner-box .image-box img {
+    transition: all 500ms ease;
+    border-radius: 0 !important;
+  }
+  
+  .team-section .image-box {
+    width: 100% !important;
+    height: 400px !important;
+    display: flex; /* Ensures proper alignment if needed */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevents overflow */
+  }
+  
+  .team-section .image-box img {
+    /* width: 100% !important; */
+    height: 100%;
+    object-fit: cover;
+  }
+  .team-block {
+    width: 600px !important;
+    height: 600px !important;
+  }
+  .team-block span {
+    font-size: 12px !important;
+  }
+  .team-block .author-box {
+    width: 100%;
+    margin: 0 !important;
+  }
+  .othre-info {
+    /* background-color: #004390 !important; */
+    border: 2px solid #004390 !important;
+    padding: 10px 20px !important;
+  }
+  @media (max-width: 768px) {
+    .team-section .image-box {
+      width: 100% !important;
+      height: 400px !important;
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      overflow: hidden; 
+    }
+    .team-block-one{
+      width: 100% !important;
+      height: 100% !important;
+      max-width: 80% !important;
+      min-width: 300px !important;
+    }
+  }

@@ -1,0 +1,16 @@
+.bread-crumb {
+    width: 150px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    background-color: #112F77;
+    border-radius: 5px;
+    
+}
+.bread-crumb li {
+    list-style-type: none;
+    margin-right: 15px;
+    position: relative;
+}
